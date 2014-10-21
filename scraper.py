@@ -6,7 +6,7 @@ The second category listed here:
 """
 
 
-from scraperwiki import datastore
+# from scraperwiki import datastore
 import scraperwiki
 from urllib import urlopen
 import re
