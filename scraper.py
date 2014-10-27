@@ -10,6 +10,7 @@ The second category listed here:
 import scraperwiki
 from urllib import urlopen
 import re
+import time
 
 
 def main():
@@ -84,6 +85,6 @@ def main():
         # now save it
         scraperwiki.sqlite.save(unique_keys=["Unique ID"],data=keyvaluepairs)
 
-
+        time.sleep(1)
         
 main()
