@@ -85,6 +85,6 @@ def main():
         # now save it
         scraperwiki.sqlite.save(unique_keys=["Unique ID"],data=keyvaluepairs)
 
-        time.sleep(2)
+        time.sleep(3)
         
 main()
